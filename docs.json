@@ -1,122 +1,140 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "System Design",
+  "theme": "aspen",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1E40AF"
   },
-  "favicon": "/favicon.svg",
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/karanpratapsingh/system-design"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/karanpratapsingh/system-design"
+    }
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Learn",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "introduction",
+              "what-is-system-design"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Chapter I - Fundamentals",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "fundamentals/ip",
+              "fundamentals/osi-model",
+              "fundamentals/tcp-udp",
+              "fundamentals/dns",
+              "fundamentals/load-balancing",
+              "fundamentals/clustering",
+              "fundamentals/caching",
+              "fundamentals/cdn",
+              "fundamentals/proxy",
+              "fundamentals/availability",
+              "fundamentals/scalability",
+              "fundamentals/storage"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Chapter II - Databases",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "databases/databases-and-dbms",
+              "databases/sql-databases",
+              "databases/nosql-databases",
+              "databases/sql-vs-nosql",
+              "databases/replication",
+              "databases/indexes",
+              "databases/normalization-denormalization",
+              "databases/acid-base",
+              "databases/cap-theorem",
+              "databases/pacelc-theorem",
+              "databases/transactions",
+              "databases/distributed-transactions",
+              "databases/sharding",
+              "databases/consistent-hashing",
+              "databases/federation"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Chapter III - Architecture",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "architecture/n-tier-architecture",
+              "architecture/message-brokers",
+              "architecture/message-queues",
+              "architecture/publish-subscribe",
+              "architecture/enterprise-service-bus",
+              "architecture/monoliths-microservices",
+              "architecture/event-driven-architecture",
+              "architecture/event-sourcing",
+              "architecture/cqrs",
+              "architecture/api-gateway",
+              "architecture/rest-graphql-grpc",
+              "architecture/long-polling-websockets-sse"
+            ]
+          },
+          {
+            "group": "Chapter IV - Advanced Topics",
+            "pages": [
+              "advanced/geohashing-quadtrees",
+              "advanced/circuit-breaker",
+              "advanced/rate-limiting",
+              "advanced/service-discovery",
+              "advanced/sla-slo-sli",
+              "advanced/disaster-recovery",
+              "advanced/vms-containers",
+              "advanced/oauth-oidc",
+              "advanced/single-sign-on",
+              "advanced/ssl-tls-mtls"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "System Design Interviews",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Interview Guide",
             "pages": [
-              "api-reference/introduction"
+              "interviews/overview",
+              "interviews/how-to-approach"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Real-World Examples",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "interviews/url-shortener",
+              "interviews/whatsapp",
+              "interviews/twitter",
+              "interviews/netflix",
+              "interviews/uber"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Additional Resources",
+            "pages": [
+              "resources/next-steps",
+              "resources/references"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    ]
   }
 }
