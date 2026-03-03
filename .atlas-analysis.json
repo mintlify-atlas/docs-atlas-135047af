@@ -1,0 +1,170 @@
+{
+  "projectType": "general",
+  "projectName": "System Design",
+  "projectDescription": "A comprehensive guide to learn system design fundamentals and prepare for system design interviews",
+  "theme": "aspen",
+  "primaryColor": "#2563EB",
+  "lightColor": "#60A5FA",
+  "darkColor": "#1E40AF",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Learn",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "what-is-system-design"
+            ]
+          },
+          {
+            "group": "Chapter I - Fundamentals",
+            "pages": [
+              "fundamentals/ip",
+              "fundamentals/osi-model",
+              "fundamentals/tcp-udp",
+              "fundamentals/dns",
+              "fundamentals/load-balancing",
+              "fundamentals/clustering",
+              "fundamentals/caching",
+              "fundamentals/cdn",
+              "fundamentals/proxy",
+              "fundamentals/availability",
+              "fundamentals/scalability",
+              "fundamentals/storage"
+            ]
+          },
+          {
+            "group": "Chapter II - Databases",
+            "pages": [
+              "databases/databases-and-dbms",
+              "databases/sql-databases",
+              "databases/nosql-databases",
+              "databases/sql-vs-nosql",
+              "databases/replication",
+              "databases/indexes",
+              "databases/normalization-denormalization",
+              "databases/acid-base",
+              "databases/cap-theorem",
+              "databases/pacelc-theorem",
+              "databases/transactions",
+              "databases/distributed-transactions",
+              "databases/sharding",
+              "databases/consistent-hashing",
+              "databases/federation"
+            ]
+          },
+          {
+            "group": "Chapter III - Architecture",
+            "pages": [
+              "architecture/n-tier-architecture",
+              "architecture/message-brokers",
+              "architecture/message-queues",
+              "architecture/publish-subscribe",
+              "architecture/enterprise-service-bus",
+              "architecture/monoliths-microservices",
+              "architecture/event-driven-architecture",
+              "architecture/event-sourcing",
+              "architecture/cqrs",
+              "architecture/api-gateway",
+              "architecture/rest-graphql-grpc",
+              "architecture/long-polling-websockets-sse"
+            ]
+          },
+          {
+            "group": "Chapter IV - Advanced Topics",
+            "pages": [
+              "advanced/geohashing-quadtrees",
+              "advanced/circuit-breaker",
+              "advanced/rate-limiting",
+              "advanced/service-discovery",
+              "advanced/sla-slo-sli",
+              "advanced/disaster-recovery",
+              "advanced/vms-containers",
+              "advanced/oauth-oidc",
+              "advanced/single-sign-on",
+              "advanced/ssl-tls-mtls"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "System Design Interviews",
+        "groups": [
+          {
+            "group": "Interview Guide",
+            "pages": [
+              "interviews/overview",
+              "interviews/how-to-approach"
+            ]
+          },
+          {
+            "group": "Real-World Examples",
+            "pages": [
+              "interviews/url-shortener",
+              "interviews/whatsapp",
+              "interviews/twitter",
+              "interviews/netflix",
+              "interviews/uber"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Additional Resources",
+            "pages": [
+              "resources/next-steps",
+              "resources/references"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Comprehensive system design fundamentals covering networking, databases, and architecture patterns",
+    "In-depth coverage of distributed systems concepts including CAP theorem, sharding, and consistent hashing",
+    "Real-world system design interview questions with detailed solutions for WhatsApp, Twitter, Netflix, Uber, and URL shorteners",
+    "Visual diagrams and explanations for complex concepts like load balancing, caching, microservices, and message queues",
+    "Practical guidance on scalability, availability, performance optimization, and architectural trade-offs"
+  ],
+  "publicApiSurface": [
+    "IP addresses and networking fundamentals (IPv4, IPv6)",
+    "OSI Model layers and protocols",
+    "TCP/UDP protocols and their use cases",
+    "Domain Name System (DNS) and load balancing strategies",
+    "Clustering patterns (active-active, active-passive)",
+    "Caching strategies and cache invalidation patterns",
+    "Content Delivery Networks (CDN)",
+    "Proxy servers (forward proxy, reverse proxy)",
+    "SQL and NoSQL databases comparison",
+    "Database replication, sharding, and federation",
+    "ACID and BASE consistency models",
+    "CAP theorem and PACELC theorem",
+    "Distributed transactions and two-phase commit",
+    "Consistent hashing algorithms",
+    "N-tier architecture patterns",
+    "Message brokers and message queues",
+    "Publish-Subscribe messaging patterns",
+    "Microservices vs Monolithic architecture",
+    "Event-driven architecture and event sourcing",
+    "CQRS (Command Query Responsibility Segregation)",
+    "API Gateway patterns",
+    "REST, GraphQL, and gRPC comparison",
+    "WebSockets and Server-Sent Events (SSE)",
+    "Geohashing and Quadtrees for location services",
+    "Circuit breaker pattern",
+    "Rate limiting strategies",
+    "Service discovery mechanisms",
+    "SLA, SLO, and SLI metrics",
+    "Disaster recovery strategies",
+    "Virtual Machines vs Containers",
+    "OAuth 2.0 and OpenID Connect (OIDC)",
+    "Single Sign-On (SSO)",
+    "SSL, TLS, and mTLS protocols"
+  ]
+}
